@@ -1,0 +1,110 @@
+@import 'base';
+
+
+footer {background-color: #fff;
+		width: 100%;
+		color: #000;
+
+		border-color: #000;
+		.contact_footer {width: 30%;
+			margin-left: 5%;
+			margin-right: 2%;
+			color: #000;
+			display: inline-block;
+			img{width: 15%;
+				display: inline-block;}
+			img:hover {background-color:#eee;;
+				-webkit-transition: 0.5s;
+				transition: 0.5s;
+				border-radius: 5px;}
+			h3{display: inline-block;
+				width: 70%;
+				padding-left:1em; 
+				font:150% $mf;}
+			.social{
+				margin-top: 15%;
+				a{padding: 1%;}
+			}
+		}
+
+		.foots{width: 15%;
+			vertical-align: 6em;
+				display: inline-table;
+				h3{font:140% $mf;}
+				ul{font:100% $mf;
+					li{list-style: none;}
+				}
+			}
+		.information{}
+		.account{}
+		.contact{}
+		.marks{
+				background-color: #fff;
+			.quality{width: 50%;}
+			.sign{width: 100%;
+				color: #000;
+				font:100% $mf;}
+			}
+
+
+
+	}
+
+
+
+
+#showLeft{margin-left: 2%;
+	position: fixed;
+	-webkit-transform: translateZ(0);
+	.inline-svg{width: 10%;}
+	@-moz-document url-prefix() {
+	.inline-svg{width: 40%;}
+				}
+
+
+}
+
+#hideLeft{margin-left: 10%;
+	width: 20%;
+	-webkit-transform: translateZ(0);
+	.inline-svg{width: 2%;}}
+.bar {
+
+	}
+
+.button{
+	text-align: center;
+	font: 120% $mf;
+	color: #fff;
+	text-decoration: none;
+	padding: 1em 3em;
+	border-style: solid;
+	border-width: 1px;
+	@include border-radius(5px); 
+	&:hover{
+	color: #000;
+	transition:0.5s;
+	border-color: #fff;
+	background-color: #fff;
+	text-decoration: none;}
+
+}
+
+
+.button2{
+	text-align: center;
+	font: 120% $mf;
+	color: #000;
+	text-decoration: none;
+	padding: 1em 3em;
+	border-style: solid;
+	border-width: 1px;
+	@include border-radius(5px); 
+	&:hover{
+	color: #fff;
+	transition:0.5s;
+	border-color: #000;
+	background-color: #000;
+	text-decoration: none;}
+}
+

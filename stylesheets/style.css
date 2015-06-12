@@ -1,0 +1,115 @@
+/* line 106, ../../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+  width: 100%;
+  margin: -1px 0px 0px 0px;
+  padding-top: 1px;
+  overflow-x: hidden;
+  background-color: #000;
+}
+/* line 9, ../sass/style.scss */
+body section {
+  margin-top: -1px;
+  padding-top: 1px;
+}
+/* line 15, ../sass/style.scss */
+body .slide3 {
+  width: 100%;
+  min-height: 800px;
+  background-color: #fff;
+}
+/* line 19, ../sass/style.scss */
+body .slide3 h1 {
+  font: 230% "Helvetica";
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+/* line 23, ../sass/style.scss */
+body .slide3 ul {
+  width: 100%;
+}
+/* line 24, ../sass/style.scss */
+body .slide3 ul li {
+  display: inline-table;
+  margin: 0% 0%;
+}
+/* line 26, ../sass/style.scss */
+body .slide3 ul li a {
+  text-decoration: none;
+  display: inline-table;
+  text-align: center;
+  color: #000;
+  font: 150% "Helvetica";
+}
+/* line 31, ../sass/style.scss */
+body .slide3 ul li a img {
+  width: 70%;
+}
+/* line 32, ../sass/style.scss */
+body .slide3 ul li a p {
+  line-height: 1px;
+}
+/* line 36, ../sass/style.scss */
+body .slide3 .tabContent {
+  height: 47em;
+  width: 100%;
+  background-color: #eee;
+}
+/* line 40, ../sass/style.scss */
+body .slide3 .tabContent h2 {
+  font: 230% "Helvetica";
+  padding: 5% 0% 3% 0%;
+  width: 100%;
+  line-height: 1px;
+  text-align: center;
+  color: #000;
+}
+/* line 47, ../sass/style.scss */
+body .slide3 .tabContent .teatxt {
+  width: 40%;
+  vertical-align: -3em;
+  display: inline-table;
+}
+/* line 50, ../sass/style.scss */
+body .slide3 .tabContent .teatxt p {
+  font: 120% Source Sans Pro, sans-serif;
+  margin-left: 15%;
+  width: 80%;
+}
+/* line 54, ../sass/style.scss */
+body .slide3 .tabContent .storyPic {
+  display: inline-table;
+  width: 55%;
+  float: right;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: left;
+}
+/* line 64, ../sass/style.scss */
+body .slide3 .tabContent .teaside1 {
+  background-image: url(../img/slidebg1.png);
+}
+/* line 65, ../sass/style.scss */
+body .slide3 .tabContent .teaside2 {
+  background-image: url(../img/slidebg2.jpg);
+}
+/* line 66, ../sass/style.scss */
+body .slide3 .tabContent .teaside3 {
+  background-image: url(../img/slidebg3.jpg);
+}
+/* line 67, ../sass/style.scss */
+body .slide3 .tabContent .teaside4 {
+  background-image: url(../img/slidebg4.jpg);
+}
+
+/*@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Ananda Namaste", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+*/

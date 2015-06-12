@@ -1,0 +1,204 @@
+/* line 106, ../../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 4, ../sass/think.scss */
+body {
+  width: 100%;
+  margin: -1px 0px 0px 0px;
+  padding-top: 1px;
+  overflow-x: hidden;
+  background-color: #000;
+}
+/* line 9, ../sass/think.scss */
+body section {
+  margin-top: -1px;
+  padding-top: 1px;
+}
+/* line 13, ../sass/think.scss */
+body .slidewhite {
+  margin-top: -1px;
+  padding-top: 1px;
+  width: 100%;
+  min-height: 450px;
+  background-color: white;
+}
+/* line 19, ../sass/think.scss */
+body .slidewhite .text {
+  margin: 0%;
+  margin-top: 1em;
+  vertical-align: 15em;
+  width: 60%;
+  display: inline-table;
+}
+/* line 24, ../sass/think.scss */
+body .slidewhite .text h1 {
+  font: 300% "Helvetica";
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+/* line 28, ../sass/think.scss */
+body .slidewhite .text p {
+  width: 100%;
+  text-align: left;
+  color: #000;
+  margin-left: 5%;
+  font: 140% Source Sans Pro, sans-serif;
+}
+/* line 34, ../sass/think.scss */
+body .slidewhite .figures {
+  width: 35%;
+  margin-left: 2%;
+  display: inline-table;
+}
+/* line 37, ../sass/think.scss */
+body .slidewhite .figures img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 44, ../sass/think.scss */
+body .slidephoto {
+  min-height: 400px;
+  width: 100%;
+  margin: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 51, ../sass/think.scss */
+body .slidephoto p {
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin: 5em auto 0em auto;
+  display: block;
+  font: 140% Source Sans Pro, sans-serif;
+}
+/* line 60, ../sass/think.scss */
+body .slide3 {
+  background-image: url(../img/slidebg2.jpg);
+}
+/* line 61, ../sass/think.scss */
+body .slide5 {
+  background-image: url(../img/slidebg3.jpg);
+}
+/* line 62, ../sass/think.scss */
+body .slide7 {
+  background-image: url(../img/slidebg4.jpg);
+}
+/* line 63, ../sass/think.scss */
+body .slide9 {
+  background-image: url(../img/slide33.jpg);
+}
+/* line 67, ../sass/think.scss */
+body .slide1 {
+  min-height: 400px;
+  width: 100%;
+  margin: 0;
+  background-image: url(../img/story.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* line 73, ../sass/think.scss */
+body .slide1 h1 {
+  font: 300% "Helvetica";
+  width: 100%;
+  margin-top: -2px;
+  text-align: center;
+  color: white;
+}
+/* line 78, ../sass/think.scss */
+body .slide1 img {
+  width: 10%;
+  margin: 5% auto 0 auto;
+  display: block;
+}
+/* line 81, ../sass/think.scss */
+body .slide1 p {
+  width: 65%;
+  text-align: center;
+  color: #fff;
+  margin: 0% auto;
+  display: block;
+  font: 150% Source Sans Pro, sans-serif;
+}
+/* line 87, ../sass/think.scss */
+body .slide1 a {
+  margin: 0 auto;
+  width: 10%;
+  display: block;
+}
+/* line 93, ../sass/think.scss */
+body .slide4 {
+  margin-top: -1px;
+  padding-top: 1px;
+  width: 100%;
+  min-height: 500px;
+  background-color: white;
+}
+/* line 99, ../sass/think.scss */
+body .slide4 .text {
+  margin: 0%;
+  margin-top: 5%;
+  vertical-align: 15em;
+  width: 60%;
+  display: inline-table;
+}
+/* line 104, ../sass/think.scss */
+body .slide4 .text h1 {
+  font: 300% "Helvetica";
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+/* line 108, ../sass/think.scss */
+body .slide4 .text p {
+  width: 100%;
+  text-align: left;
+  color: #000;
+  margin-left: 5%;
+  font: 150% Source Sans Pro, sans-serif;
+}
+/* line 114, ../sass/think.scss */
+body .slide4 .figures {
+  width: 35%;
+  margin-left: 2%;
+  display: inline-table;
+}
+/* line 117, ../sass/think.scss */
+body .slide4 .figures img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 127, ../sass/think.scss */
+body .slidesub {
+  background-color: white;
+  margin-top: -1px;
+  padding-top: 1px;
+  width: 100%;
+  min-height: 250px;
+}
+/* line 133, ../sass/think.scss */
+body .slidesub h1 {
+  font: 300% "Helvetica";
+  width: 100%;
+  line-height: 1em;
+  text-align: center;
+  color: #000;
+}
+/* line 138, ../sass/think.scss */
+body .slidesub .but {
+  width: 20%;
+  margin: 3% auto 0% auto;
+  display: block;
+}
+
+/*@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Ananda Namaste", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+*/

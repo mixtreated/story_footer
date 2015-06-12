@@ -1,0 +1,148 @@
+@import 'base';
+
+
+body{width: 100%;
+	margin: -1px 0px 0px 0px;
+		padding-top: 1px;
+	overflow-x:hidden; 
+	background-color: #000;
+section{margin-top: -1px;
+		padding-top: 1px;
+}
+
+	.slidewhite{
+		margin-top: -1px;
+		padding-top: 1px;
+		width: 100%;
+		min-height: 450px;
+		background-color: white;
+		.text{margin: 0%;
+			margin-top: 1em;
+			vertical-align: 15em;
+			width: 60%;
+			display: inline-table;
+			h1{font:300% $headline; 
+				width: 100%;
+				text-align: center;
+				color: #000;}
+			p{width: 100%;
+					text-align: left;
+					color: #000;	
+					margin-left: 5%;
+					font: 140% $mf;}
+		}
+		.figures{width: 35%;
+			margin-left: 2%;
+			display: inline-table;
+			img{width: 60%;
+				display: block;
+				margin: 0 auto;}
+}
+
+	}
+
+	.slidephoto{
+			min-height: 400px;
+			width: 100%;
+			margin: 0;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			p{width: 80%;
+					text-align: center;
+					color: white;	
+					margin: 5em auto 0em auto;
+					display: block;
+					font: 140% $mf;}
+	}
+
+
+	.slide3{background-image: url(../img/slidebg2.jpg);}
+	.slide5{background-image: url(../img/slidebg3.jpg);}
+	.slide7{background-image: url(../img/slidebg4.jpg);}
+	.slide9{background-image: url(../img/slide33.jpg);}
+
+
+
+	.slide1{min-height: 400px;
+			width: 100%;
+			margin: 0;
+			background-image: url(../img/story.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+		h1{font:300% $headline; 
+			width: 100%;
+			margin-top: -2px;
+			text-align: center;
+			color: white;}
+		img{width: 10%;
+			margin: 5% auto 0 auto;
+			display: block;}
+		p{width: 65%;
+			text-align: center;
+			color: #fff;
+			margin: 0% auto;
+			display: block;
+			font: 150% $mf;}
+		a{margin: 0 auto;
+			width: 10%;
+			display: block;}
+
+	}
+
+	.slide4{
+		margin-top: -1px;
+		padding-top: 1px;
+		width: 100%;
+		min-height: 500px;
+		background-color: white;
+		.text{margin: 0%;
+			margin-top: 5%;
+			vertical-align: 15em;
+			width: 60%;
+			display: inline-table;
+			h1{font:300% $headline; 
+				width: 100%;
+				text-align: center;
+				color: #000;}
+			p{width: 100%;
+					text-align: left;
+					color: #000;	
+					margin-left: 5%;
+					font: 150% $mf;}
+		}
+		.figures{width: 35%;
+			margin-left: 2%;
+			display: inline-table;
+			img{width: 60%;
+				display: block;
+				margin: 0 auto;}
+}
+
+	}
+
+
+
+
+	.slidesub{
+		background-color: white;
+		margin-top: -1px;
+		padding-top: 1px;
+		width: 100%;
+		min-height: 250px;
+		h1{font:300% $headline; 
+			width: 100%;
+			line-height: 1em;
+			text-align: center;
+			color: #000;}
+			.but{width: 20%;
+				margin: 3% auto 0% auto;
+				display: block;}
+	}
+
+}
+
+/*@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Ananda Namaste", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+*/

@@ -1,0 +1,80 @@
+@import 'base';
+
+
+body{width: 100%;
+	margin: -1px 0px 0px 0px;
+		padding-top: 1px;
+	overflow-x:hidden; 
+	background-color: #000;
+section{margin-top: -1px;
+		padding-top: 1px;
+}
+
+
+
+	.slide3{
+		width: 100%;
+		min-height: 800px;
+		background-color: #fff;
+		h1{font:230% $headline; 
+			width: 100%;
+			text-align: center;
+			color: #000;}
+		ul{width: 100%;
+			li{display: inline-table;
+				margin: 0% 0%;
+				a{text-decoration: none;
+				display: inline-table;
+				text-align: center;
+				color: #000;
+				font:150% $headline; 
+					img{width: 70%;}
+					p{line-height: 1px;}
+				}
+			}
+		}
+		.tabContent{
+			height: 47em;
+			width: 100%;
+			background-color: #eee;
+			h2{font:230% $headline; 
+			padding: 5% 0% 3% 0%;
+			width: 100%;
+			line-height: 1px;
+			text-align: center;
+			color: #000;}
+
+			.teatxt{width: 40%;
+				vertical-align: -3em;
+				display: inline-table;
+				p{font: 120% $mf;
+					margin-left: 15%;
+					width: 80%;}
+			}
+			.storyPic{display: inline-table;
+				width: 55%;
+				float: right;
+
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: auto 100%;
+				background-position:left;
+				}
+
+			.teaside1{background-image: url(../img/slidebg1.png);}
+			.teaside2{background-image: url(../img/slidebg2.jpg);}
+			.teaside3{background-image: url(../img/slidebg3.jpg);}
+			.teaside4{background-image: url(../img/slidebg4.jpg);}
+
+		}
+
+
+	}
+
+
+}
+
+/*@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Ananda Namaste", font-files("bgrove.ttf", "bgrove.otf"));
+@include font-face("Jaapokki", font-files("bgrove.ttf", "bgrove.otf"));
+*/

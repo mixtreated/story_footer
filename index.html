@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>tealure</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="stylesheets/footer.css" type="text/css" media="screen">
+
+        <link rel="stylesheet" type="text/css" href="stylesheets/component.css" />
+
+    <style type="text/css">
+
+      ul#tabs li { display: inline; }
+      ul#tabs li a.selected {border-bottom-style:solid;}
+      div.tabContent.hide { display: none; }
+    </style>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        var tabLinks = new Array();
+        var contentDivs = new Array();
+
+        function init() {
+
+          var tabListItems = document.getElementById('tabs').childNodes;
+          for ( var i = 0; i < tabListItems.length; i++ ) {
+            if ( tabListItems[i].nodeName == "LI" ) {
+              var tabLink = getFirstChildWithTagName( tabListItems[i], 'A' );
+              var id = getHash( tabLink.getAttribute('href') );
+              tabLinks[id] = tabLink;
+              contentDivs[id] = document.getElementById( id );
+            }
+          }
+
+          var i = 0;
+
+          for ( var id in tabLinks ) {
+            tabLinks[id].onclick = showTab;
+            tabLinks[id].onfocus = function() { this.blur() };
+            if ( i == 0 ) tabLinks[id].className = 'selected';
+            i++;
+          }
+
+
+          var i = 0;
+
+          for ( var id in contentDivs ) {
+            if ( i != 0 ) contentDivs[id].className = 'tabContent hide';
+            i++;
+          }
+        }
+
+        function showTab() {
+          var selectedId = getHash( this.getAttribute('href') );
+
+          for ( var id in contentDivs ) {
+            if ( id == selectedId ) {
+              tabLinks[id].className = 'selected';
+              contentDivs[id].className = 'tabContent';
+            } else {
+              tabLinks[id].className = '';
+              contentDivs[id].className = 'tabContent hide';
+            }
+          }
+
+          return false;
+        }
+
+        function getFirstChildWithTagName( element, tagName ) {
+          for ( var i = 0; i < element.childNodes.length; i++ ) {
+            if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+          }
+        }
+
+        function getHash( url ) {
+          var hashPos = url.lastIndexOf ( '#' );
+          return url.substring( hashPos + 1 );
+        }
+
+        //]]>
+    </script>
+
+
+
+    </head>
+    <body class="cbp-spmenu-push" onload="init()">
+
+        <section id="slide3" class="slide3">
+            <h1>Our tea has a story that you're a part of</h1>
+
+                <div class="folds">
+                    <ul id="tabs">
+                     <li><a href="#temerald"><img src="img/tem.png"><p>Nature imperative</p></a></li><li><a href="#tgreen"><img src="img/tgr.png"><p>Sustainable products</p></a></li><li><a href="#tblack"><img src="img/tb.png"><p>Tea journay</p></a></li><li><a href="#twhite"><img src="img/twh.png"><p>Giving back to communities</p></a></li>
+                    </ul>
+
+                    <div class="tabContent" id="tblack">
+                      <div class="teatxt">
+                        <h2>Direct Trade</h2>
+                        <p>Tealure is a fast growing brand that works with the motive to bring popularity to the premium tea imported from Nepal, thereby making it profitable for tea growers, pickers and manufacturers.</p>
+                        <p>As we import tea directly from the producers, the tea imported is pure and we have absolute control over the entire supply chain starting from the cultivator to the consumer. Due to the direct trade model we stick to, we manage to offer premium tea at much cheaper prices and we are able to pay the manufacturers better for all their efforts involved in tea cultivation. Thus, we eliminate the need of middlemen and instead, transfer the profits to the cultivators.</p>
+                        <p>We do not purchase tea from brokers and indulge only in direct tea from high-end tea producers, so that there is complete transparency and value in our business.</p>
+                      </div>
+                      <div class="storyPic teaside1">
+
+                      </div>
+                    </div>
+
+                    <div class="tabContent" id="tgreen">
+                      <div class="teatxt">
+                        <h2>Sustainable Packaging</h2>
+                        <p>Even during the packaging process, we make use of the right materials to ensure that it is environment-friendly. As tea is the second most consumed beverage in the world, it is marketed extensively and companies package them without taking into consideration the impact it has. Hence, we ensure that the packaging we use are eco-friendly and are devoted to package part of our tea in hand crafted bamboo tubes and Lokta paper bags, that are environment safe options.</p>
+                        <p>When bamboo and Lokta are used for packaging, no trees need to cut down, nor does it have any harmful effects on the environment. The packaging materials we make use of are unique and are hand made by village communities in Nepal and China, thereby providing them with a source of income too!</p>
+                      </div>
+                      <div class="storyPic teaside2">
+
+                      </div>
+                    </div>
+
+                    <div class="tabContent" id="temerald">
+                      <div class="teatxt">
+                      <h2>Natural Tea from Nepal</h2>
+                        <p>Unlike other countries where tea is grown, the farmers in Nepal grow tea in a small-scale in their holdings that are typically of 2500 square meters. Tea is grown in lands owned by the household near the remote villages located in the Himalayan hills present in East Nepal.</p>
+                        <p>Tea growing is not commercialized among farmers due to lack of infrastructure and tea plantations are considered as only one industry existing in the area. The climate in this region is cool, with cold breezes arising from Mount Everest and Mount Makalu. Tea plantations exist in the heights of the mountains and are surrounded by snow-clad peaks at altitude above 1900 meters, one of the highest-altitude tea estates in the world. Due to the extreme conditions in which tea is grown, the flavor of tea grown here is unique and cannot be compared to any other produce from any corner of the world.</p>
+                        <p>The main motive behind Tealure was to market the unique tea of Nepal to the worldwide markets and help the tea growers in Nepal from the revenues generated. </p>
+                      </div>
+                      <div class="storyPic teaside3">
+
+                      </div>
+                    </div>
+
+                    <div class="tabContent" id="twhite">
+                      <div class="teatxt">
+                      <h2>Giving it back to communities</h2>
+                        <p>When I witnessed the scenario in Nepal, I was determined to make the living conditions better among tea growers by giving them better prices for their produce. We went ahead and established the Tealure Farmers’ Co-operative Society in Kaski and each year, 10% of the overall profits made are set aside to help people in this area. </p>
+                        <p>Also, farmers are able to borrow loans from the co-operative society, which offers loans at 12% rate of interest, while private lenders in the same region charge nearly thrice of that. To facilitate better savings among the citizens, we also provide micro loans and deposits due to which families would be able to generate income easily. Our motive is to improve the average income of households in Nepal so that their living conditions improve.</p>
+                      </div>
+                      <div class="storyPic teaside4">
+
+                      </div>
+                    </div>
+
+                    
+                </div>
+
+        </section>
+
+
+
+      <footer id="foot">
+
+        <div class="contact_footer">
+
+          <h3>info@tealure.com</h3>
+          <div class="social">
+            <a href="mailto:info@tealure.com"><img src="img/social/fb.png"></a>
+            <a href="mailto:info@tealure.com"><img src="img/social/insta.png"></a>
+            <a href="mailto:info@tealure.com"><img src="img/social/twitter.png"></a>         
+            <a href="mailto:info@tealure.com"><img src="img/social/pin.png"></a>
+          </div>
+        </div>
+        <div class="infromation foots">
+          <h3>Information</h3>
+          <ul>
+            <li>Contact</li>
+            <li>Disclaimer</li>
+            <li>About us</li></ul>
+        </div>
+        <div class="account foots">
+          <h3>Your Account</h3>
+          <ul>
+            <li>Your Account</li></ul>
+        </div>
+        <div class="contact foots">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>Tealure</li>
+            <li>Tornehøj 37, 3520 Farum, Denmark</li>
+            <li>CVR - 34914699</li>
+            <li>(+45) 50 32 97 13</li>
+            <li>info@tealure.dk</li></ul>
+        </div>
+        <div class="marks foots">
+          <img class="quality" src="img/quality.gif">
+          <h3 class="sign">&#169; Tealure 2015</h3>
+        </div>
+      </footer>
+
+
+
+    </body>
+</html>
