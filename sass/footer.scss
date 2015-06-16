@@ -4,43 +4,46 @@
 footer {background-color: #fff;
 		width: 100%;
 		color: #000;
-
+				a{font-size: 23px;
+					text-decoration: none;
+					color: black;
+				}
 		border-color: #000;
-		.contact_footer {width: 30%;
+		.contact_footer {
+			vertical-align: -3em;
 			margin-left: 5%;
 			margin-right: 2%;
 			color: #000;
 			display: inline-block;
-			img{width: 15%;
-				display: inline-block;}
-			img:hover {background-color:#eee;;
-				-webkit-transition: 0.5s;
-				transition: 0.5s;
-				border-radius: 5px;}
+
+
 			h3{display: inline-block;
 				width: 70%;
 				padding-left:1em; 
 				font:150% $mf;}
-			.social{
-				margin-top: 15%;
-				a{padding: 1%;}
-			}
-		}
 
-		.foots{width: 15%;
-			vertical-align: 6em;
+		}
+			.social{
+				vertical-align: -3em;
+				margin-top: 2%;
+				a{padding: 1%;
+					font-size: 32px;}
+			}
+		.foots{width: 23%;
 				display: inline-table;
 				h3{font:140% $mf;}
 				ul{font:100% $mf;
 					li{list-style: none;}
 				}
 			}
-		.information{}
-		.account{}
-		.contact{}
-		.marks{
+
+		.marks{vertical-align: -5em;
+				text-align: center;
 				background-color: #fff;
-			.quality{width: 50%;}
+				img{margin: 0 auto;
+					display: block;}
+			.quality{width: 50%;
+				}
 			.sign{width: 100%;
 				color: #000;
 				font:100% $mf;}

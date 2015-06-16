@@ -19,27 +19,29 @@ body section {
 }
 /* line 15, ../sass/style.scss */
 body .slide3 {
+  border-top-style: solid;
+  border-width: 2px;
   width: 100%;
   min-height: 800px;
   background-color: #fff;
 }
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 body .slide3 h1 {
   font: 230% "Helvetica";
   width: 100%;
   text-align: center;
   color: #000;
 }
-/* line 23, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 body .slide3 ul {
   width: 100%;
 }
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body .slide3 ul li {
   display: inline-table;
   margin: 0% 0%;
 }
-/* line 26, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 body .slide3 ul li a {
   text-decoration: none;
   display: inline-table;
@@ -47,21 +49,21 @@ body .slide3 ul li a {
   color: #000;
   font: 150% "Helvetica";
 }
-/* line 31, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 body .slide3 ul li a img {
   width: 70%;
 }
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 body .slide3 ul li a p {
   line-height: 1px;
 }
-/* line 36, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 body .slide3 .tabContent {
   height: 47em;
   width: 100%;
   background-color: #eee;
 }
-/* line 40, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 body .slide3 .tabContent h2 {
   font: 230% "Helvetica";
   padding: 5% 0% 3% 0%;
@@ -70,19 +72,19 @@ body .slide3 .tabContent h2 {
   text-align: center;
   color: #000;
 }
-/* line 47, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 body .slide3 .tabContent .teatxt {
   width: 40%;
   vertical-align: -3em;
   display: inline-table;
 }
-/* line 50, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 body .slide3 .tabContent .teatxt p {
   font: 120% Source Sans Pro, sans-serif;
   margin-left: 15%;
   width: 80%;
 }
-/* line 54, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 body .slide3 .tabContent .storyPic {
   display: inline-table;
   width: 55%;
@@ -92,19 +94,19 @@ body .slide3 .tabContent .storyPic {
   background-size: auto 100%;
   background-position: left;
 }
-/* line 64, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 body .slide3 .tabContent .teaside1 {
   background-image: url(../img/slidebg1.png);
 }
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 body .slide3 .tabContent .teaside2 {
   background-image: url(../img/slidebg2.jpg);
 }
-/* line 66, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 body .slide3 .tabContent .teaside3 {
   background-image: url(../img/slidebg3.jpg);
 }
-/* line 67, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 body .slide3 .tabContent .teaside4 {
   background-image: url(../img/slidebg4.jpg);
 }
